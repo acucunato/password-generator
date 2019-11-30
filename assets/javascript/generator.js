@@ -64,6 +64,14 @@ function generatePassword() {
 
 //copy to clipboard
 
+function copyPassword() {
+    document.getElementById("generated").select();
+
+    document.execCommand("Copy");
+
+    alert("Password copied to clipboard.");    
+}
+
 // generates random char to be used in the password 
 function specialChar() {
     var special = "!#$%&'()*+,-./:;<=>?@]/[^_`{|}~";
