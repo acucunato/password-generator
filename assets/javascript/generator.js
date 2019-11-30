@@ -20,10 +20,10 @@ function generatePassword() {
         return alert("Must choose at least one character type. Try again!");
     }
 
-    // generates random char in password string using the user inputted length
     // define password var to hold password data
     var password = "";
-
+    
+    // generates random char in password string using the user inputted length
     for (i = 0; i < finalLength; i++) {
 
         if (confirmSpecial && password.length < finalLength) {
