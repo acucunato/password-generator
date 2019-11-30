@@ -19,7 +19,7 @@ This application will generate a random password based on user-selected criteria
 
 ## Demo
 
-[generator](assets/images/password-generator-photo.png "Password Generator")
+(assets/images/password-generator-photo.png "Password Generator")
 
 
 ## Tech used 
