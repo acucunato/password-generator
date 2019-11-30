@@ -7,7 +7,7 @@ This application will generate a random password based on user-selected criteria
 
 ## Utilizing the App
 
-* View the app: (https://acucunato.github.io/password-generator/ "Here") 
+* View the app: [Here](https://acucunato.github.io/password-generator/ "Here") 
 
 * To start click on "Generate Password" button.
 
@@ -19,7 +19,7 @@ This application will generate a random password based on user-selected criteria
 
 ## Demo
 
-(assets/images/password-generator-photo.png "Password Generator")
+![Password Generator Image](assets/images/password-generator-photo.png "Password Generator")
 
 
 ## Tech used 
