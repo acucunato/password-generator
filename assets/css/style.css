@@ -5,3 +5,7 @@ html, body {
 textarea {
     text-align: center;
 }
+
+.card-footer {
+    background-color: white;
+}
