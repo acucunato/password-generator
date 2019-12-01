@@ -23,7 +23,7 @@ function generatePassword() {
     // define password var to hold password data
     var password = "";
     
-    // generates random char in password string using the user inputted length
+    // generates random char in password string using the user inputted length, if true adds char to empty password string
     for (i = 0; i < finalLength; i++) {
 
         if (confirmSpecial && password.length < finalLength) {
@@ -44,7 +44,6 @@ function generatePassword() {
     }
 
     //created array to hold password data in order be able to randomize char
-
     var passwordArr = password.split("");
 
     //randomizing order of the sort & joining together
@@ -52,10 +51,11 @@ function generatePassword() {
         return 0.5 - Math.random();
     });
 
+    // final password generated!!! :)
     password = passwordArr.join("");
 
     // final generated password in an alert
-    alert("Your password is: " + password);
+    alert("Your password is " + password);
 
 
     //generates password to text area
