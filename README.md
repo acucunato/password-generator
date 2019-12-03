@@ -3,17 +3,17 @@
 Created during Week 4 of UPenn Coding Bootcamp.
 
 ## Overview
-This application will generate a random password based on user-selected criteria. User will be prompted to choose a desired length and types of characters to include in the password.
+This application will generate a random password based on user-selected criteria. User will be prompted to choose a desired length and types of characters to include in the password. Characters in the password will then be randomly chosen in a random order based on user selection and desired length.
 
 ## Utilizing the App
 
 * View the app: [Here](https://acucunato.github.io/password-generator/ "Here") 
 
-* To start click on "Generate Password" button.
+* To start, click on "Generate Password" button.
 
 * User will answer prompts as desired.
     * User must select a number between 8-128 characters.
-    * User must confirm at least one of the valid inputs (special, number, upper & lower char) to continue. 
+    * User must confirm at least one of the valid inputs (special, number, upper & lower characters) to continue. 
 
 * After password is generated, user can copy password to clipboard by clicking the "Copy to Clipboard" button.
 
@@ -28,6 +28,10 @@ This application will generate a random password based on user-selected criteria
 * CSS
 * Bootstrap
 * Javascript
+
+## Contributers
+
+* Alyssa Cucunato
 
 
 

@@ -43,7 +43,7 @@ function generatePassword() {
         }
     }
 
-    //created array to hold password data in order be able to randomize char
+    //turned "password" into an array in order to hold password data and to be able to randomize char
     var passwordArr = password.split("");
 
     //randomizing order of the sort & joining together
@@ -62,7 +62,7 @@ function generatePassword() {
     document.getElementById("generated").value = password;
 }
 
-//copy to clipboard
+//copy to clipboard button
 
 function copyPassword() {
     document.getElementById("generated").select();
