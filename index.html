@@ -4,39 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script type="text/javascript" src="assets/javascript/generator.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css"
+      integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <script
+      type="text/javascript"
+      src="assets/javascript/generator.js"
+    ></script>
 
     <title>Password Generator</title>
   </head>
 
-
   <body>
-      <div class="conainter">
-        <div class="card text-center">
-                <div class="card-header">
-                  <h1>Password Generator</h1>
-                </div>
-                <div class="card-body">
-                  <h2 class="card-title">Generate a Password</h2>
-                  <div class="form-group">
-                 <textarea class="form-control" id="generated"
-                 placeholder="Your Secure Password"
-                 aria-label="Generated Password" rows="5"></textarea>
-                      </div>
-                  <br>
+    <div class="conainter">
+      <div class="card text-center">
+        <div class="card-header">
+          <h1>Password Generator</h1>
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Generate a Password</h2>
+          <div class="form-group">
+            <textarea
+              class="form-control"
+              id="generated"
+              placeholder="Your Secure Password"
+              aria-label="Generated Password"
+              rows="5"
+            ></textarea>
+          </div>
+          <br />
 
-                  <div class="card-footer">
+          <div class="card-footer">
+            <button
+              type="button"
+              class="btn btn-danger btn-lg"
+              id="generate"
+              onclick="generatePassword()"
+            >
+              Generate Password
+            </button>
 
-                  <button type="button" class="btn btn-danger btn-lg" id="generate" onclick="generatePassword()">Generate Password</button>
-
-                  <button type="button" class="btn btn-secondary btn-lg" id="copy" onclick="copyPassword()">Copy to Clipboard</button>
-                  </div>
-
-                </div>
-              </div>
-              </div>
-</body>
+            <button
+              type="button"
+              class="btn btn-secondary btn-lg"
+              id="copy"
+              onclick="copyPassword()"
+            >
+              Copy to Clipboard
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
